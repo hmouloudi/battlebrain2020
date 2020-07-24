@@ -1,4 +1,4 @@
-package com.sqli.seatservice.floor;
+package com.sqli.seatservice.domain.floor;
 
 import org.springframework.data.repository.CrudRepository;
 

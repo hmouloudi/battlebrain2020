@@ -1,6 +1,6 @@
-package com.sqli.seatservice.floor;
+package com.sqli.seatservice.domain.floor;
 
-import com.sqli.seatservice.area.Area;
+import com.sqli.seatservice.domain.area.Area;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

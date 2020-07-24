@@ -1,6 +1,6 @@
-package com.sqli.seatservice.seat;
+package com.sqli.seatservice.domain.seat;
 
-import com.sqli.seatservice.area.Area;
+import com.sqli.seatservice.domain.table.Desk;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -11,16 +11,18 @@ import javax.persistence.*;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Table
 @Builder
 @Entity
+@Table(name = "seats", uniqueConstraints = {
+        @UniqueConstraint(columnNames = {"seat_number", "desk_pk"})
+})
 public class Seat {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long pk;
 
     @ManyToOne
-    private Area area;
+    private Desk desk;
 
     @Column(name = "seat_number")
     private String number;

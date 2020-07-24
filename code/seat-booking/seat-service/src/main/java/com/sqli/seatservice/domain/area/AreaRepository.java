@@ -1,4 +1,4 @@
-package com.sqli.seatservice.area;
+package com.sqli.seatservice.domain.area;
 
 import org.springframework.data.repository.CrudRepository;
 

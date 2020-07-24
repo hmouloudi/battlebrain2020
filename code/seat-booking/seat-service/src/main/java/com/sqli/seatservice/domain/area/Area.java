@@ -1,7 +1,7 @@
-package com.sqli.seatservice.area;
+package com.sqli.seatservice.domain.area;
 
-import com.sqli.seatservice.floor.Floor;
-import com.sqli.seatservice.seat.Seat;
+import com.sqli.seatservice.domain.floor.Floor;
+import com.sqli.seatservice.domain.room.Room;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,18 +15,20 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "areas")
+@Table(name = "areas", uniqueConstraints = {
+        @UniqueConstraint(columnNames = {"area_code", "floor_pk"})
+})
 public class Area {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long pk;
 
-    @Column(name = "area_code", unique = true)
+    @Column(name = "area_code")
     private String code;
 
     @ManyToOne
     private Floor floor;
 
     @OneToMany(mappedBy = "area", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Seat> seats;
+    private List<Room> rooms;
 }

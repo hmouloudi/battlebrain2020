@@ -1,4 +1,4 @@
-package com.sqli.seatservice.seat;
+package com.sqli.seatservice.domain.seat;
 
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
