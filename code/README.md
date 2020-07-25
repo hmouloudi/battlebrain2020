@@ -1,5 +1,5 @@
 # Seat Booking Application
-![ui](https://raw.githubusercontent.com/hmouloudi/battlebrain2020/master/content/images/ui.PNG = 250x)
+![ui](https://raw.githubusercontent.com/hmouloudi/battlebrain2020/master/content/images/ui.PNG)
 
 ## Getting Started
 
