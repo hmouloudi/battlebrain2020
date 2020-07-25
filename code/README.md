@@ -1,4 +1,5 @@
 # Seat Booking Application
+![ui](https://raw.githubusercontent.com/hmouloudi/battlebrain2020/master/content/images/ui.PNG = 250x)
 
 ## Getting Started
 
@@ -13,7 +14,6 @@ Microservice seat booking application with spring cloud as API provider and angu
 ## Endpoints : 
 * Eureka server : http://localhost:8761/
 * Seat service : via gateway -> http://localhost:8080/api/seat or directely -> http://localhost:8081/api
-* 
 ## C4 Model
 
 ### Context
