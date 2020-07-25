@@ -1,5 +1,4 @@
-# Project Title
-Seat booking application
+# Seat Booking Application
 
 ## Getting Started
 
@@ -15,35 +14,35 @@ Microservice seat booking application with spring cloud as API provider and angu
 * Eureka server : http://localhost:8761/
 * Seat service : via gateway -> http://localhost:8080/api/seat or directely -> http://localhost:8081/api
 * 
-# C4 Model
+## C4 Model
 
-## Context
-## Container
-## Components
-## Code
+### Context
+### Container
+### Components
+### Code
 
 
-# Locale Deploiment Procedure
+## Locale Deploiment Procedure
 
-## Docker
+### Docker
 docker-compose up -d
-## IntelliJ
+### IntelliJ
 Lombok
 Java 14
-## NPM
+### NPM
 ng serve
 
-# Project Info
-## Next release Feature
+## Project Info
+### Next release Feature
 
 - Integration with Azure cloud
 - Add logging 
 - Add swagger
 
-## Authors
+### Authors
 
 * **Hicham Mouloudi** - *Initial work*
 
-## License
+### License
 
 SQLI SQLI-Morocco Battle Brain 2020
