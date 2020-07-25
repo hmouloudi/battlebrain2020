@@ -1,3 +1,4 @@
 rootProject.name = 'seat-booking'
 
 include 'seat-service'
+include 'eureka-discovery-server'
