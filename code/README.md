@@ -11,6 +11,10 @@ Microservice seat booking application with spring cloud as API provider and angu
 * [Gradle](https://maven.apache.org/) - Dependency Management
 * [Spring boot](https://spring.io/) - Used as backend API
 
+## Endpoints : 
+* Eureka server : http://localhost:8761/
+* Seat service : via gateway -> http://localhost:8080/api/seat or directely -> http://localhost:8081/api
+* 
 # C4 Model
 
 ## Context
