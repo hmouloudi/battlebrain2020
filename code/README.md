@@ -17,10 +17,14 @@ Microservice seat booking application with spring cloud as API provider and angu
 ## C4 Model
 
 ### Context
-### Container
-### Components
-### Code
 
+### Container
+
+### Components
+![components](https://raw.githubusercontent.com/hmouloudi/battlebrain2020/master/content/images/component-architecture.PNG)
+
+### Code
+  
 
 ## Locale Deploiment Procedure
 
