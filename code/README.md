@@ -75,6 +75,7 @@ Microservice seat booking application with spring cloud as API provider and angu
 - Integration with Azure cloud
 - Add logging 
 - Add swagger
+- Add recommendation microservice 
 
 ### Authors
 
