@@ -12,8 +12,24 @@ Microservice seat booking application with spring cloud as API provider and angu
 * [Spring boot](https://spring.io/) - Used as backend API
 
 ## Endpoints : 
-* Eureka server : http://localhost:8761/
-* Seat service : via gateway -> http://localhost:8080/api/seat or directely -> http://localhost:8081/api
+* Front application :
+  * URL : http://localhost:4200/
+  * Login (soon)
+  * Book a seat
+  * Filter seats
+  * View booked seats
+* Eureka server : 
+  * http://localhost:8761/
+* Seat service : 
+  * Gateway URL  -> http://localhost:8080/api/seats 
+  * Direct URL -> http://localhost:8081/api/seats
+  * Retrieve all seats
+* Customer service : 
+  * Authetification & authorazation
+  * Validate login from web client
+* Reservation Service : 
+  *  Book a seat based on table size / 2 and seat avalaibility
+  
 ## C4 Model
 
 ### Context
