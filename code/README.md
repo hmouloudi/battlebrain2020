@@ -5,6 +5,12 @@ Seat booking application
 
 Microservice seat booking application with spring cloud as API provider and angular as web client.
 
+## Built With
+
+* [Angular]https://angular.io/) - The web framework used
+* [Gradle](https://maven.apache.org/) - Dependency Management
+* [Spring boot]https://spring.io/) - Used as backend API
+
 # C4 Model
 
 ## Context
