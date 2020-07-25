@@ -44,14 +44,31 @@ Microservice seat booking application with spring cloud as API provider and angu
 
 ## Locale Deploiment Procedure
 
-### Docker
-docker-compose up -d
-### IntelliJ
-Lombok
-Java 14
-### NPM
-ng serve
 
+### Prerequisite
+* Docker
+* Lombok ( optionnel for dev only)
+* Intellij (or eclipse)
+* NPM
+* Angular CLI
+* VisualStudio code (optionel)
+
+### Locale Deploiment
+* Run docker containers :
+  * cd seat-booking
+  * docker-compose up -d
+* Import project 'seat-booking' in IntelliJ
+* Run the following in order :
+  * eureka-discovery-server
+  * api-gateway
+  * seat-service
+  * reservation-service
+  * customer-service
+* Run the web client
+  * cd seat-booking-client
+  * npm install
+  * ng serve
+ 
 ## Project Info
 ### Next release Feature
 
