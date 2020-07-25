@@ -1,7 +1,7 @@
 package com.sqli.seatservice.domain.room;
 
 import com.sqli.seatservice.domain.area.Area;
-import com.sqli.seatservice.domain.table.Desk;
+import com.sqli.seatservice.domain.desk.Desk;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

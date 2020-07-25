@@ -1,6 +1,6 @@
 package com.sqli.seatservice.domain.seat;
 
-import com.sqli.seatservice.domain.table.Desk;
+import com.sqli.seatservice.domain.desk.Desk;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

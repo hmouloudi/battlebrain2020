@@ -1,4 +1,4 @@
-package com.sqli.seatservice.domain.table;
+package com.sqli.seatservice.domain.desk;
 
 
 import com.sqli.seatservice.domain.room.Room;
